@@ -1,0 +1,83 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fffed8;
+}
+
+.title {
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+}
+.title span {
+    color: #C9C446;
+    font-size: 40px;
+}
+.main-info a {
+    color: #C9C446;
+    font-size: 20px;
+    text-decoration: none;
+}
+.main, .main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-info, .main-info2 {
+    max-width: 500px;
+}
+.main-info2 img {
+    width: 20px;
+    margin: 2px;
+}
+.main img, .main2 img {
+    max-width: 600px;
+}
+.comp-img {
+    margin: 100px;
+}
+.main-info ul {
+    padding-left: 17px;
+}
+.form {
+    max-width: 420px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+.form h2 {
+    text-align: center;
+    font-size: 35px;
+}
+.form input {
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 10px;
+    border: 4px solid  #C9C446;
+    margin-bottom: 20px;
+    background-color: white;
+    font-style: italic;
+    color: #C9C446;
+}
+.form textarea {
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 10px;
+    border: 4px solid  #C9C446;
+    margin-bottom: 20px;
+    background-color: white;
+    font-style: italic; 
+    
+}
+.form button {
+    background-color: #C9C446;
+    padding: 16px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    border: #C9C446 solid;
+    text-transform: uppercase;
+}
+.form button:hover {
+    background-color: aliceblue;
+    color: black;
+}
